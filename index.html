@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="padaria Nova: pães artesanais, doces, bolos e cafés fresquinhos.">
+
+    <title>padaria Nova | Padaria Artesanal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho e navegação -->
+    <header class="navbar">
+        <a href="#" class="logo">
+            <span class="logo-icon">🥐</span>
+            <span>padaria <strong>Nova</strong></span>
+        </a>
+
+        <nav class="nav-links" aria-label="Navegação principal">
+            <a href="#inicio">Início</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#historia">Nossa história</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <a href="#cardapio" class="nav-button">Ver delícias ↗</a>
+    </header>
+
+    <!-- Conteúdo principal e barra lateral -->
+    <div class="layout">
+
+        <aside class="sidebar">
+            <p class="sidebar-title">EXPLORE</p>
+
+            <nav aria-label="Categorias do cardápio">
+                <a href="#paes"><span>🥖</span>Pães</a>
+                <a href="#doces"><span>🍰</span>Doces</a>
+                <a href="#bolos"><span>🎂</span>Bolos</a>
+                <a href="#cafes"><span>☕</span>Cafés</a>
+            </nav>
+
+            <div class="sidebar-note">
+                <span>☀️</span>
+                <h3>Bom dia!</h3>
+                <p>Seu dia merece começar com algo especial.</p>
+            </div>
+
+            <p class="sidebar-hours">
+                <span class="status-dot"></span>
+                Aberto hoje<br>
+                <strong>06h às 19h</strong>
+            </p>
+        </aside>
+
+        <main>
+            <!-- Apresentação -->
+            <section class="hero" id="inicio">
+                <div class="hero-content">
+                    <span class="eyebrow">✳ FEITO COM CARINHO</span>
+
+                    <h1>Seu dia começa<br>mais <em>gostoso.</em></h1>
+
+                    <p>
+                        O cheirinho de pão quentinho, o café passado
+                        na hora e aquele doce que abraça a alma.
+                    </p>
+
+                    <a href="#cardapio" class="primary-button">
+                        Descubra nosso cardápio →
+                    </a>
+
+                    <div class="hero-info">
+                        <span>✦ Ingredientes selecionados</span>
+                        <span>✦ Produção artesanal</span>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-circle">
+                        <img
+                            src="https://tse1.explicit.bing.net/th/id/OIP.l_KehMeOa42Gg_6XL777iAHaGS?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                            alt="Croissants dourados recém-assados"
+                        >
+                    </div>
+
+                    <div class="floating-note">
+                        <span>♡</span>
+                        Feito fresquinho<br>todos os dias
+                    </div>
+
+                    <span class="decor decor-one">✳</span>
+                    <span class="decor decor-two">✦</span>
+                </div>
+            </section>
+<hr><hr>
+            <!-- Produtos -->
+            <section class="menu-section" id="cardapio">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">DA NOSSA COZINHA</span>
+                        <h2 class="txt">Pequenos prazeres</h2>
+                    </div>
+
+                    <p>Escolhidos para deixar seu dia mais doce.</p>
+                </div>
+
+                <div class="product-grid">
+
+                    <article class="product-card" id="paes">
+                        <div class="product-image bread">
+                            <img
+                                src="https://mandareceitas.com.br/wp-content/uploads/2024/07/pao-artesanal-tradicional-1024x585.jpg"
+                                alt="Pão artesanal com casca dourada"
+                                loading="lazy"
+                            >
+                            <span class="product-tag">Favorito</span>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">PADARIA</span>
+                            <h3>Pão artesanal</h3>
+                            <p>Crocante por fora, macio por dentro.</p>
+
+                            <div class="product-bottom">
+                                <strong>R$ 12,00</strong>
+                                <a href="#contato" aria-label="Consultar pão artesanal">↗</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card" id="doces">
+                        <div class="product-image sweet">
+                            <img
+                                src="https://receitasmaravilhosa.com.br/wp-content/uploads/2023/02/bolo-de-aniversario-.png"
+                                alt="Bolo confeitado com cobertura de chocolate"
+                                loading="lazy"
+                            >
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">CONFEITARIA</span>
+                            <h3>Bolo dos sonhos</h3>
+                            <p>Uma fatia de felicidade a cada pedaço.</p>
+
+                            <div class="product-bottom">
+                                <strong>R$ 15,00</strong>
+                                <a href="#contato" aria-label="Consultar bolo dos sonhos">↗</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card" id="cafes">
+                        <div class="product-image coffee">
+                            <img
+                                src="https://tse4.mm.bing.net/th/id/OIP.2VMSBfS8LQt-hQr-jHg1IAAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                                alt="Xícara de café preparado na hora"
+                                loading="lazy"
+                            >
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">CAFETERIA</span>
+                            <h3>Café especial</h3>
+                            <p>O companheiro perfeito para sua manhã.</p>
+
+                            <div class="product-bottom">
+                                <strong>R$ 7,00</strong>
+                                <a href="#contato" aria-label="Consultar café especial">↗</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- História -->
+            <section class="story-section" id="historia">
+                <div>
+                    <span class="eyebrow">MAIS QUE UMA PADARIA</span>
+                    <h2>Tradição que tem<br><em>gosto de carinho.</em></h2>
+                </div>
+
+                <p>
+                    Acreditamos que os melhores momentos começam
+                    com coisas simples: uma mesa compartilhada,
+                    um pão quentinho e tempo para aproveitar.
+                </p>
+            </section>
+
+            <!-- Rodapé -->
+            <footer class="footer" id="contato">
+                <div class="footer-brand">
+                    <a href="#inicio" class="logo">
+                        🥐 padaria <strong>Nova</strong>
+                    </a>
+                    <p>Espalhando carinho, uma fornada por vez.</p>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Venha nos visitar</h3>
+                    <p>Segunda a sábado · 06h às 19h</p>
+                    <p>Domingos · 07h às 12h</p>
+                    <a href="mailto:contato@padarianova.com">
+                        Entre em contato ↗
+                    </a>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>© 2026 padaria Nova</p>
+                    <a href="#inicio">Voltar ao topo ↑</a>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+</body>
+</html>
