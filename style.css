@@ -235,7 +235,7 @@ main {
 .hero-content > p {
     max-width: 430px;
     margin-bottom: 28px;
-    color: var(--marrom-claro);
+    color: white
 }
 
 .hero-info {
@@ -245,6 +245,12 @@ main {
     margin-top: 28px;
     font-size: 0.76rem;
     color: var(--marrom-claro);
+}
+.hero-info span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color:#c94d45;
 }
 
 .hero-image {
@@ -328,7 +334,7 @@ main {
 
 .section-heading > p {
     max-width: 260px;
-    color: var(--marrom-claro);
+    color:white;
     font-size: 0.9rem;
 }
 
@@ -395,6 +401,7 @@ main {
     margin: 6px 0;
     font-family: Georgia, serif;
     font-size: 1.2rem;
+    color:#eee3d7;
 }
 
 .product-info > p {
@@ -414,6 +421,7 @@ main {
 
 .product-bottom strong {
     font-size: 1.05rem;
+    color:#c94d45;
 }
 
 .product-bottom a {
