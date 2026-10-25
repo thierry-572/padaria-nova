@@ -49,7 +49,6 @@ padaria-nova/
 └── README.md
 ```
 
-> A estrutura acima é ilustrativa. Ajuste os nomes conforme os arquivos reais do projeto.
 
 ## 📚 Aprendizados
 
